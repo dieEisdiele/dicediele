@@ -1,4 +1,4 @@
-# diceDiele
+# dicediele
 
 A Rust program for rolling dice and calculating various dice-related probabilities to assist tRPG players and DMs in making appropriate decisions.
 
