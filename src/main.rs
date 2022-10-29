@@ -1,15 +1,27 @@
+//     dicediele is a Rust program for rolling dice and calculating various dice-related probabilities to assist tRPG players and DMs in making appropriate decisions.
+//     Copyright (C) 2022  Tom Su
+
+//     This program is free software: you can redistribute it and/or modify
+//     it under the terms of the GNU Affero General Public License as published
+//     by the Free Software Foundation, either version 3 of the License, or
+//     (at your option) any later version.
+
+//     This program is distributed in the hope that it will be useful,
+//     but WITHOUT ANY WARRANTY; without even the implied warranty of
+//     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+//     GNU Affero General Public License for more details.
+
+//     You should have received a copy of the GNU Affero General Public License
+//     along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+//     E: dieeisdiele.ts@gmail.com
+
+
+
+use terminal_io::t_roll_dice_loop;
+
 mod dice;
 mod terminal_io;
 fn main() {
-    println!("Ready to roll.");
-
-    let dice_inputs: [u32; 2] = terminal_io::t_roll_request();
-
-    let rolls: Vec<u32> = dice::roll_ndx(dice_inputs[0], dice_inputs[1]);
-    for result in &rolls {
-        println!("You rolled a {}.", result);
-    }
-
-    let sum: u32 = rolls.iter().sum();
-    println!("Your total is {}.", sum);
+    t_roll_dice_loop();
 }
