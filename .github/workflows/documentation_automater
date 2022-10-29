@@ -4,7 +4,10 @@ name: Documentation Automater
 # **Why we have it**: To keep wiki documentation up-to-date.
 # **Who does it impact**: Wiki content.
 
-on: [push]
+on:
+  push:
+    branches:
+      - main
 
 jobs:
   build:
