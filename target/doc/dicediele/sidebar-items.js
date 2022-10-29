@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"fn":[["main",""]],"mod":[["dice",""],["terminal_io",""]]};
