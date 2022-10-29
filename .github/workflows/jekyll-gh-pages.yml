@@ -33,7 +33,7 @@ jobs:
         uses: actions/jekyll-build-pages@v1
         with:
           source: ./target/doc/dicediele/
-          destination: ./_site
+          destination: ./target/doc/_site
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
 
