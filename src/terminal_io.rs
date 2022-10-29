@@ -14,7 +14,7 @@
 //     You should have received a copy of the GNU Affero General Public License
 //     along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
-//     E: dieeisdiele.ts@gmail.com
+//     Contact: dieeisdiele.ts@gmail.com
 
 
 
@@ -69,6 +69,7 @@ pub fn t_roll_dice_loop() {
 /// Also parses the input and returns a `[u32;2]` array containing `[N, X]`. Alternatively, returns `[0,0]` if the user types `cancel`.
 /// 
 /// # Examples
+/// 
 /// ```
 /// use dicediele::terminal_io::*;
 /// use dicediele::dice::*;

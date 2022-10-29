@@ -14,7 +14,7 @@
 //     You should have received a copy of the GNU Affero General Public License
 //     along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
-//     E: dieeisdiele.ts@gmail.com
+//     Contact: dieeisdiele.ts@gmail.com
 
 
 
@@ -28,6 +28,7 @@ use rand::prelude::*;
 /// * `x` - How many faces each die should have
 /// 
 /// # Examples
+/// 
 /// ```
 /// use dicediele::dice::*;
 /// 

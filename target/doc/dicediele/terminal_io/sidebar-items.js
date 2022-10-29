@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"fn":[["t_roll_dice_loop",""],["t_roll_request","Terminal prompt for rolling input. Returns processed user input as an array."]]};
