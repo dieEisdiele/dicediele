@@ -20,6 +20,8 @@
 
 use rand::prelude::*;
 
+
+
 /// Rolls N X-sided dice and returns a vector of the results.
 /// 
 /// # Arguments
@@ -29,7 +31,7 @@ use rand::prelude::*;
 /// 
 /// # Examples
 /// 
-/// ```
+/// ```rust
 /// use dicediele::dice::*;
 /// 
 /// // Roll 2d6 (2 6-sided dice) and print each roll on a separate line

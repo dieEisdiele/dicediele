@@ -32,10 +32,9 @@
 
 
 
-use terminal_io::t_roll_dice_loop;
-
 mod dice;
 mod terminal_io;
 fn main() {
-    t_roll_dice_loop();
+    println!("{}\nWelcome to dicediele\n", terminal_io::SPLASH);
+    terminal_io::t_roll_dice_loop();
 }
