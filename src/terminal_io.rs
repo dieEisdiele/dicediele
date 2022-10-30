@@ -24,7 +24,7 @@ use crate::dice;
 
 
 
-/// A logo to print to terminal on startup
+/// A logo to print to terminal on startup.
 pub const SPLASH: &str = r#"
               _    _                                 ,.::""""::.,         
              | |  (_)                           ,.::"''  ***   ''"::.,    

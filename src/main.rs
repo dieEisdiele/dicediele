@@ -8,8 +8,8 @@
 //! 
 //! - Sides of the dice
 //! - Number of dice
-//! - Exploding dice and the method of explosion
-//! - How success is determined
+//! - Exploding dice and the method of explosion (not yet implemented)
+//! - How success is determined (not yet implemented)
 //! 
 //! ## License
 //! 
@@ -28,7 +28,7 @@
 //! You should have received a copy of the GNU Affero General Public License
 //! along with this program.  If not, see <https://www.gnu.org/licenses/>.
 //!
-//! Contact: dieeisdiele.ts@gmail.com
+//! Contact: <dieeisdiele.ts@gmail.com>
 
 
 
