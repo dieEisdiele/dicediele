@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"constant":[["LOGO","A logo to print to terminal on startup."],["NOTICE","Copyright notice to print to terminal on startup."]],"fn":[["t_roll_request","Creates a loop where the user will be prompted to specify which dice to roll, be presented with the outcomes, and asked if they would like to repeat."]]};
