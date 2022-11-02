@@ -23,17 +23,18 @@
 
 
 
-use dicediele::*;
+use lazy_static::lazy_static;
+use regex::{Regex, CaptureMatches};
 
 
 
-#[doc(hidden)]
-fn main() {
-    println!("dicediele is a work in progress. Please come back later.");
-
-    let test_str: &str = "d612-!h2\r\n";
-    let test_parse = dice::lexer_parser::parse(test_str);
-    for caps in test_parse {
-        println!("N = {}\ndX = {}\ncond = {}", &caps["N"], &caps["dX"], &caps["cond"]);
+/// A regular expression for recognising dice notation.
+pub fn parse(dice_string: &str) -> CaptureMatches {
+    //TODO Handle errors properly
+    lazy_static! {
+    pub static ref DICE_NOTATION_REGEX: Regex = Regex::new(r"(?P<N>\d*)(?P<dX>d\d+)(?P<cond>.*)\s").unwrap();
     }
+
+    let dice_tokens = DICE_NOTATION_REGEX.captures_iter(dice_string);
+    dice_tokens
 }
