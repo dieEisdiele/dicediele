@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"fn":[["roll_ndx","Rolls N X-sided dice and returns a vector of the results."]],"mod":[["lexer_parser","Interprets dice notation into inputs for other functions in dice module."],["probabilities","Predicts the outcome of dice rolls."]]};

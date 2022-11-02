@@ -13,7 +13,7 @@ var sourcesIndex = JSON.parse('{\
 "clap_lex":["",[],["lib.rs"]],\
 "clipboard_win":["",[],["formats.rs","lib.rs","raw.rs","utils.rs"]],\
 "cty":["",[],["lib.rs"]],\
-"dicediele":["",[["gui",[],["mod.rs"]],["terminal",[],["mod.rs"]]],["lib.rs","probabilities.rs","rolls.rs"]],\
+"dicediele":["",[["dice",[],["lexer_parser.rs","mod.rs","probabilities.rs"]],["gui",[],["mod.rs"]],["terminal",[],["display.rs","mod.rs"]]],["lib.rs"]],\
 "eframe":["",[["native",[],["epi_integration.rs","mod.rs","run.rs"]]],["epi.rs","lib.rs"]],\
 "egui":["",[["containers",[],["area.rs","collapsing_header.rs","combo_box.rs","frame.rs","mod.rs","panel.rs","popup.rs","resize.rs","scroll_area.rs","window.rs"]],["data",[],["input.rs","mod.rs","output.rs"]],["input_state",[],["touch_state.rs"]],["util",[],["cache.rs","fixed_cache.rs","history.rs","id_type_map.rs","mod.rs","undoer.rs"]],["widgets",[["plot",[["items",[],["bar.rs","box_elem.rs","mod.rs","rect_elem.rs","values.rs"]]],["legend.rs","mod.rs","transform.rs"]],["text_edit",[],["builder.rs","cursor_range.rs","mod.rs","output.rs","state.rs","text_buffer.rs"]]],["button.rs","color_picker.rs","drag_value.rs","hyperlink.rs","image.rs","label.rs","mod.rs","progress_bar.rs","selected_label.rs","separator.rs","slider.rs","spinner.rs"]]],["animation_manager.rs","context.rs","frame_state.rs","grid.rs","id.rs","input_state.rs","introspection.rs","layers.rs","layout.rs","lib.rs","memory.rs","menu.rs","painter.rs","placer.rs","response.rs","sense.rs","style.rs","ui.rs","widget_text.rs"]],\
 "egui_glow":["",[],["lib.rs","misc_util.rs","painter.rs","post_process.rs","shader_version.rs","vao.rs"]],\
