@@ -1,14 +1,18 @@
 [package]
 name = "dicediele"
-version = "0.1.0"
+version = "0.0.1"
 edition = "2021"
+description = "A Rust program for rolling dice and calculating various dice-related probabilities to assist tRPG players and DMs in making appropriate decisions."
+keywords = ["dice", "rng", "rpg"]
+documentation = "https://dieeisdiele.github.io/dicediele/"
+authors = ["Tom Su"]
 license = "AGPL-3.0-or-later"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-clap = "4.0.18"
-eframe = "0.19.0"
-lazy_static = "1.4.0"
-rand = "0.8.5"
-regex = "1.6.0"
+clap = "*"
+eframe = "*"
+lazy_static = "*"
+rand = "*"
+regex = "*"

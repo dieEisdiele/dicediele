@@ -1,3 +1,5 @@
+#![allow(dead_code, unused_variables)]      //TODO remove this for published versions
+
 //! # dicediele
 //! 
 //! dicediele is a Rust program for rolling dice and calculating various

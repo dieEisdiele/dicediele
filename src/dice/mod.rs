@@ -31,7 +31,7 @@ pub mod probabilities;
 
 
 
-use rand::prelude::*;
+use rand::Rng;
 
 
 
