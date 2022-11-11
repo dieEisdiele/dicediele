@@ -21,17 +21,13 @@
 
 // Contact: dieeisdiele.ts@gmail.com
 
-
+use rand::Rng;
 
 /// Interprets dice notation into inputs for other functions in dice module.
 pub mod lexer_parser;
 
 /// Predicts the outcome of dice rolls.
 pub mod probabilities;
-
-
-
-use rand::Rng;
 
 
 

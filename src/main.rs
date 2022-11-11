@@ -21,8 +21,6 @@
 
 // Contact: dieeisdiele.ts@gmail.com
 
-
-
 use dicediele::*;
 
 
@@ -31,9 +29,9 @@ use dicediele::*;
 fn main() {
     println!("dicediele is a work in progress. Please come back later.");
 
-    let test_str: &str = "d612-!h2\r\n";
+    let test_str: &str = " 5d612-!h2\r\n";
     let test_parse = dice::lexer_parser::parse(test_str);
     for caps in test_parse {
-        println!("N = {}\ndX = {}\ncond = {}", &caps["N"], &caps["dX"], &caps["cond"]);
+        println!("N = {}\nX = {}\ncond = {}", &caps["N"], &caps["X"], &caps["cond"]);
     }
 }

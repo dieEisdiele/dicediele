@@ -21,15 +21,12 @@
 
 // Contact: dieeisdiele.ts@gmail.com
 
-
+use std::io;
+// use clap::Parser;
+// use crate::dice;
 
 /// Constants for the CLI to print.
 mod display;
-
-use std::io;
-// use std::error::Error;
-// use clap::Parser;
-// use crate::dice;
 
 
 
@@ -41,7 +38,7 @@ use std::io;
 /// Alternatively, they can exit early by tying `menu`.
 /// 
 /// This function is a WiP and could be split into smaller functions handling sections of the loop to hand more control to main.rs
-// pub fn t_roll_dice_loop() {
+// pub fn roll_dice_loop() {
 //     'roll_dice: loop {
 //         let dice_inputs: [u32; 2] = t_roll_request();                   // ask for user input
 //         if dice_inputs == [0, 0] {                                      // t_roll_request() returns [0, 0] if the user enters `menu`
@@ -101,7 +98,7 @@ use std::io;
 /// // Ask the user which dice they would like to roll and store their input
 /// let dice_inputs: String = terminal_io::t_roll_request();
 /// ```
-pub fn t_roll_request() -> String {
+pub fn roll_request() -> String {
     println!("What would you like to roll?");       // query user
 
     let mut input = String::new();                  // define string to be filled, also clears string on error

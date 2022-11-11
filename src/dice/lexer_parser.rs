@@ -21,8 +21,6 @@
 
 // Contact: dieeisdiele.ts@gmail.com
 
-
-
 use lazy_static::lazy_static;
 use regex::{Regex, CaptureMatches};
 
@@ -31,8 +29,9 @@ use regex::{Regex, CaptureMatches};
 /// A regular expression for recognising dice notation.
 pub fn parse(dice_string: &str) -> CaptureMatches {
     //TODO Handle errors properly
+    //TODO Replace lazy_static with once_cell
     lazy_static! {
-    pub static ref DICE_NOTATION_REGEX: Regex = Regex::new(r"(?P<N>\d*)(?P<dX>d\d+)(?P<cond>.*)\s").unwrap();
+    pub static ref DICE_NOTATION_REGEX: Regex = Regex::new(r"\s(?P<N>\d*)d(?P<X>\d+)(?P<cond>[^\s]*)\s").unwrap();
     }
 
     let dice_tokens = DICE_NOTATION_REGEX.captures_iter(dice_string);
