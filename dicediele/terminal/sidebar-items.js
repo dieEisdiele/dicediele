@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"fn":[["t_roll_request","Creates a loop where the user will be prompted to specify which dice to roll, be presented with the outcomes, and asked if they would like to repeat."]]};
+window.SIDEBAR_ITEMS = {"fn":[["roll_request","Creates a loop where the user will be prompted to specify which dice to roll, be presented with the outcomes, and asked if they would like to repeat."]]};
